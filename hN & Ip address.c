@@ -23,6 +23,7 @@ void checkHostEntry(struct hostent * hostentry)
     if (hostentry == NULL)
     {
         perror("gethostbyname");
+      
         exit(1);
     }
 }
